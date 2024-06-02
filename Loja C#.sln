@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaNet.models", "LojaNet.model\LojaNet.models.csproj", "{F5F2D4BC-AA20-4FB0-B113-2C0ABCA75F32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaNet.models", "LojaNet.model\LojaNet.models.csproj", "{F5F2D4BC-AA20-4FB0-B113-2C0ABCA75F32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaNet.DAL", "LojaNet.DAL\LojaNet.DAL.csproj", "{5B7A339F-BE88-41C9-827F-E2934B03C6D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaNet.DAL", "LojaNet.DAL\LojaNet.DAL.csproj", "{5B7A339F-BE88-41C9-827F-E2934B03C6D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaNet.BLL", "LojaNet.BLL\LojaNet.BLL.csproj", "{291CF04B-3B0D-47BC-93FE-79C9F9C706AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaNet.BLL", "LojaNet.BLL\LojaNet.BLL.csproj", "{291CF04B-3B0D-47BC-93FE-79C9F9C706AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaNet.UI.Web", "LojaNet.UI.Web1\LojaNet.UI.Web.csproj", "{7A59BF83-DDC8-455E-ACC9-9B10A989030D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{291CF04B-3B0D-47BC-93FE-79C9F9C706AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{291CF04B-3B0D-47BC-93FE-79C9F9C706AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{291CF04B-3B0D-47BC-93FE-79C9F9C706AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A59BF83-DDC8-455E-ACC9-9B10A989030D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A59BF83-DDC8-455E-ACC9-9B10A989030D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A59BF83-DDC8-455E-ACC9-9B10A989030D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A59BF83-DDC8-455E-ACC9-9B10A989030D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
