@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace LojaNet.model
 {
+    //Classe simples p/ armazenar informações (Pega e Seta)
     public class Cliente
     {
         public string Id { get; set; }

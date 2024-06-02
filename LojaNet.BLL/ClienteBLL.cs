@@ -11,6 +11,7 @@ using LojaNet.model;
 
 namespace LojaNet.BLL
 {
+    //Business Logic Layer 
     public class ClienteBLL : IClienteDados
     {
         public void Alterar(Cliente cliente)

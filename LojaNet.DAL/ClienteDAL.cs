@@ -10,7 +10,9 @@ using LojaNet.models;
 
 namespace LojaNet.DAL
 {
-    //Classe ":" implemente Interface Cliente Dados
+    //Classe ":" implementa Interface Cliente Dados
+    //Cliente: Acesso a Dados
+    //Data Access Layer
     public class ClienteDAL : IClienteDados
     {
         public void Alterar(Cliente cliente)
