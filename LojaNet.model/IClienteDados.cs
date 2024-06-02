@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//Interface p/ métodos models - (Padrão I{Nome do Objeto})
+//Interface p/ métodos models - (Padrão I{Nome do Objeto}: POO)
 namespace LojaNet.models
 {
     public interface IClienteDados
